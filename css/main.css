@@ -188,7 +188,6 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  border: 10px solid #000;
 }
 
 .features h2 {
@@ -371,7 +370,7 @@ aside {
   }
 
   /* ----- Home page */
-/* Header */
+  /* Header */
   header {
     justify-content: space-around;
     padding: 33px 0;
@@ -486,9 +485,66 @@ aside {
   }
 }
   
-  @media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   
   /*Desktop styles here*/
+
+  /* ----- General styles */
+  .content-wrapper {
+    max-width: 960px;
+    background-color: #f00;
+  }
+
+  /* ----- Home page */
+  /* Header */
+  .hero-area h1 {
+    width: 60%;
+  }
+
+  /* Aside */
+  aside {justify-content: space-around; }
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {width: 30%; margin: 0 50px; }
+
+  /* Features */
+  .features h2 {
+    width: 90%;
+  }
+
+  .features article {
+    flex-basis: 33%;
+  }
+
+  .features .features-items-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  .features p {
+    margin: 0;
+  }
+
+  /* Reviews */
+
+  .reviews {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+
+  .reviews h2 {
+    margin-bottom: 40px;
+  }
+  
+  .reviews h3 {
+    width: 55%;
+    margin: 20px 0;
+  }
+
+  /* Footer */
+  
   
 }
 
