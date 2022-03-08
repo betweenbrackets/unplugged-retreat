@@ -235,12 +235,18 @@ footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  
 }
 
 footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #e2e3ed;
+  background: #527158;
+  height: 3rem;
+  width: 3rem; 
+  border-radius: 40px;
 }
 
 footer .copyright {
