@@ -235,7 +235,6 @@ footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  
 }
 
 footer .social-icons p {
@@ -338,6 +337,11 @@ input[type=button] {
 .features p {
   text-align: center;
   margin: 0;
+}
+
+.features i {
+  font-size: 3.75em;
+        margin-bottom: 40px;
 }
 
 /* Reviews */
@@ -591,11 +595,6 @@ input[type=button] {
   }
   /* Features */
 
-  .features i {
-    font-size: 3.75em;
-          margin-bottom: 40px;
-  }
-
   .features h2 {
     margin-bottom: 20px;
   }
@@ -655,6 +654,10 @@ input[type=button] {
 
   footer p {
       line-height: 1.285;
+  }
+
+  footer .social-icons {
+    width: 200px;
   }
 
   footer .copyright {
